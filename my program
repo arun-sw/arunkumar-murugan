@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
+#include <conio.h
 
-int main()
+void main()
 {
     int *ptr1;
     int *ptr2;
@@ -22,10 +22,10 @@ int main()
         mul = *ptr1 * *ptr2;
         div = *ptr1 / *ptr2;
 
-    printf("addition=%d\n",add);
-    printf("subtrection=%d\n",sub);
+    printf("addition=      %d\n",add);
+    printf("subtrection=   %d\n",sub);
     printf("multiplication=%d\n",mul);
-    printf("divition=%f\n",div);
+    printf("divition=      %f\n",div);
 
-    return 0;
+    getch();
 }
