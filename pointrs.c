@@ -17,7 +17,7 @@ int i,avg,total=0, marks[5];
     printf("enter the student roll no:");
     scanf("%d",&s.rollno);
     printf("enter the student name:");
-    scanf("%s",&s[2].name);
+    scanf("%s",&s.name);
     printf("enter the student mark\n");
     printf("enter the sub %d:",i+1);
     scanf("%d",&s[2].sub1);
