@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 #include <stdlib.h>
 struct student
@@ -29,7 +28,7 @@ int i,avg,total=0, marks[5];
     printf("enter the sub %d:",i+1);
     scanf("%d",&s[2].sub4);
     printf("enter the sub %d:",i+1);
-    scanf("%d",&s[2].sub5);
+    scanf("%d",&s.sub5);
     printf("\tSTUTENT MARKSHEET\n");
     printf("student roll no:%d\n",s[2].rollno);
     printf("student name :%s\n",s[2].name);
