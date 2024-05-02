@@ -15,7 +15,7 @@ int main()
 struct student s[2];
 int i,avg,total=0, marks[5];
     printf("enter the student roll no:");
-    scanf("%d",&s[2].rollno);
+    scanf("%d",&s.rollno);
     printf("enter the student name:");
     scanf("%s",&s[2].name);
     printf("enter the student mark\n");
