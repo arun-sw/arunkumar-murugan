@@ -20,7 +20,7 @@ int i,avg,total=0, marks[5];
     scanf("%s",&s.name);
     printf("enter the student mark\n");
     printf("enter the sub %d:",i+1);
-    scanf("%d",&s[2].sub1);
+    scanf("%d",&s.sub1);
     printf("enter the sub %d:",i+1);
     scanf("%d",&s[2].sub2);
     printf("enter the sub %d:",i+1);
