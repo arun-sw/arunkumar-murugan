@@ -32,7 +32,7 @@ int i,avg,total=0, marks[5];
     printf("\tSTUTENT MARKSHEET\n");
     printf("student roll no:%d\n",s[2].rollno);
     printf("student name :%s\n",s[2].name);
-    total=s[2].sub1+s[2].sub2+s[2].sub3+s[2].sub4+s[2].sub5;
+    total=s.sub1+s.sub2+s.sub3+s.sub4+s.sub5;
     printf("total marks %d\n",total);
     avg=total/5;
     printf("avg mark:%d\n",avg);
