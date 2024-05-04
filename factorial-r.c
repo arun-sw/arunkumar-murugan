@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int fact(int n)
+int fact(int a)
 {
     if(n==1)
 
