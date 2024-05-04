@@ -6,7 +6,7 @@ int fact(int a)
     if(n==1)
 
         return 1;
-    return n*fact(a-1);
+    return a*fact(a-1);
 }
 int main()
     {
