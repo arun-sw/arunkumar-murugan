@@ -3,8 +3,8 @@
 
 void main()
 {
+    int *ptr;
     int *ptr1;
-    int *ptr2;
     int num1,num2;
     int add,sub,mul;
     float div;
