@@ -18,7 +18,7 @@ int main()
             continue;
         }
 
-    for (i = 2; i< j; i++)
+    for (v = 2; v< j; v++)
         if (j%i !=0)
             continue;
          flag = 1;
