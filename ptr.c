@@ -16,9 +16,9 @@ int main(char argv[],char argc[])
     {
         printf("file is not opened");
     }
-    while (ch= fgetc(ptr1)!=EOF){
+    while (ch= fgetc(p1)!=EOF){
 
-        fputc(ch,ptr2);
+        fputc(ch,p2);
         charcter++;
         if(ch=='\n'||ch=='\0'||ch=='\t'){
             line++;
@@ -31,18 +31,18 @@ int main(char argv[],char argc[])
             line++;
         }
 
-        fprintf(ptr2,"NO OF WORDS");
-        fprintf(ptr2,"%d",words);
+        fprintf(p2,"NO OF WORDS");
+        fprintf(p2,"%d",words);
 
-        fprintf(ptr2,"NO OF line");
-        fprintf(ptr2,"%d",line);
+        fprintf(p2,"NO OF line");
+        fprintf(p2,"%d",line);
 
-        fprintf(ptr2,"NO OF letter");
-        fprintf(ptr2,"%d",letter);
+        fprintf(p2,"NO OF letter");
+        fprintf(p2,"%d",letter);
 
         printf("file is copyed succfully");
-        fclose(ptr1);
-        fclose(ptr2);
+        fclose(p1);
+        fclose(p2);
         return 0;
     }
 
