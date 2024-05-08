@@ -4,7 +4,7 @@ int main(char argv[],char argc[])
 {
    FILE *p1,*p2;
    char ch;
-   int letter=0,words=0,line=0;
+   int character=0,words=0,line=0;
 
    p1= fopen(argc[1],"r");
    if(p1==NULL)
@@ -19,14 +19,14 @@ int main(char argv[],char argc[])
     while (ch= fgetc(ptr1)!=EOF){
 
         fputc(ch,ptr2);
-        letter++;
+        charcter++;
         if(ch=='\n'||ch=='\0'||ch=='\t'){
             line++;
         }
         if(ch=='\n'||ch=='\0'||ch=='\t'||ch==' ') {
             words++;
         }
-        if (letter<0){
+        if (character<0){
             words++;
             line++;
         }
