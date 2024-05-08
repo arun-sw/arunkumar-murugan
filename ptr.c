@@ -2,17 +2,17 @@
 
 int main(char argv[],char argc[])
 {
-   FILE *ptr1,*ptr2;
+   FILE *p1,*p2;
    char ch;
    int letter=0,words=0,line=0;
 
-   ptr1= fopen(argc[1],"r");
-   if(ptr1==NULL)
+   p1= fopen(argc[1],"r");
+   if(p1==NULL)
    {
        printf("file is not opened");
    }
-    ptr2= fopen("arun","w");
-    if(ptr2==NULL)
+    p2= fopen("arun","w");
+    if(p2==NULL)
     {
         printf("file is not opened");
     }
