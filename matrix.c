@@ -9,7 +9,7 @@ int main() {
     int mat1[m][n], mat2[m][n], mat3[m][n];
     for (i = 0; i < a; i++) {
         for (j = 0; j < n; j++)
-            scanf("%d", &mat1[i][j]);
+            scanf("%d", &matrix1[i][j]);
     }
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++)
