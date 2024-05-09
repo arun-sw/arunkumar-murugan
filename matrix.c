@@ -3,7 +3,7 @@
 
 int main() {
     int a, n;
-    printf("enter no");
+    printf("enter the number");
     scanf("%d %d", &a, &n);
     int i, j;
     int mat1[m][n], mat2[m][n], mat3[m][n];
