@@ -22,9 +22,9 @@ void main()
         mul = *ptr1 * *ptr2;
         div = *ptr1 / *ptr2;
 
-    printf("addition=      %d\n",add);
-    printf("subtrection=   %d\n",sub);
-    printf("multiplication=%d\n",mul);
+    printf("addition=      %d\n", additional);
+    printf("subtrection=   %d\n", subtraction);
+    printf("multiplication=%d\n",multiplication);
     printf("divition=      %f\n",div);
 
     getch();
