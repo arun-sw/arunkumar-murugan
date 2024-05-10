@@ -6,7 +6,7 @@ void main()
     int *ptr1;
     int *ptr2;
     int num1,num2;
-    int add,sub,mul;
+    int addtition, subtraction,multipliction  ;
     float div;
 
     printf("enter the num 1:");
