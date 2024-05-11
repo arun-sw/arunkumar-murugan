@@ -56,9 +56,9 @@ void main() {
     int c[3][3], choise;
 
     printf("frist matrix\n");
-    display(m);
+    display(a);
     printf("second matrix\n");
-    display(n);
+    display(b);
     do {
         printf("choose the matrix oppretion\n");
         printf("**********************************************************\n");
