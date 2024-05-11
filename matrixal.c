@@ -4,12 +4,12 @@
 
 
 
-void add(int m[3][3], int n[3][3], int sum[3][3])
+void add(int a[3][3], int b[3][3], int sum[3][3])
 {
     int i,j;
     for (i  =0;  i< 3; i++) {
         for ( j = 0; j <3 ; ++j) {
-            sum[i][j]=m[i][j]+n[i][j];
+            sum[i][j]=a[i][j]+b[i][j];
 
         }
 
