@@ -7,7 +7,7 @@ void main()
     int *ptr2;
     int num1,num2;
     int addtition, subtraction,multipliction  ;
-    float div;
+    float division;
 
     printf("enter the num 1:");
     scanf("%d",&num1);
@@ -25,7 +25,7 @@ void main()
     printf("addition=      %d\n", additional);
     printf("subtrection=   %d\n", subtraction);
     printf("multiplication=%d\n",multiplication);
-    printf("divition=      %f\n",div);
+    printf("divition=      %f\n", division);
 
     getch();
 }
