@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 
 
@@ -86,7 +85,7 @@ void main() {
                 display(n);
                 break;
             case 4:
-                printf("exit............");
+                printf("exit..........");
                 exit(0);
             default:
                 printf("invalid oppretion");
