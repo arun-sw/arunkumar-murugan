@@ -22,10 +22,10 @@ void main()
         mul = *ptr1 * *ptr2;
         div = *ptr1 / *ptr2;
 
-    printf("addition=      %d\n", additional);
-    printf("subtrection=   %d\n", subtraction);
+    printf("addition=%d\n", additional);
+    printf("subtrection= %d\n", subtraction);
     printf("multiplication=%d\n",multiplication);
-    printf("divition=      %f\n", division);
+    printf("divition= %f\n", division);
 
-    getch();
+    
 }
