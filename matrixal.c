@@ -38,7 +38,7 @@ int transpose(int n[3][3],int t[3][3])
 
     }
 }
-void display(int matrix[3][3])
+int display(int matrix[3][3])
 {
     int i,j;
     for (i  =0;  i< 3; i++) {
