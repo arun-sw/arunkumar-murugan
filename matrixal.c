@@ -49,7 +49,7 @@ int display(int matrix[3][3])
 
     }
 }
-void main() {
+int main() {
     int m[3][3] = {3, 4, 5, 6, 7, 8, 9, 1, 3};
     int n[3][3] = {9, 8, 7, 8, 3, 4, 5, 6, 8};
     int c[3][3], choise;
