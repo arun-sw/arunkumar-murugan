@@ -34,11 +34,9 @@ int main(char argv[],char argc[])
 
         fprintf(ptr2,"NO OF WORDS");
         fprintf(ptr2,"%d",words);
-
-        fprintf(ptr2,"NO OF line");
+       fprintf(ptr2,"NO OF line");
         fprintf(ptr2,"%d",line);
-
-        fprintf(ptr2,"NO OF letter");
+       fprintf(ptr2,"NO OF letter");
         fprintf(ptr2,"%d",letter);
 
         printf("file is copyed succfully");
