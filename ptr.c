@@ -9,7 +9,7 @@ int main(char argv[],char argc[])
    ptr1= fopen(argc[1],"r");
    if(ptr1==NULL)
    {
-       printf("file is not opened");
+       printf("file not opened");
    }
     ptr2= fopen("arun","w");
     if(ptr2==NULL)
