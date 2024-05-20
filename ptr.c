@@ -14,7 +14,7 @@ int main(char argv[],char argc[])
     ptr2= fopen("arun","w");
     if(ptr2==NULL)
     {
-        printf("file is not opened");
+        printf("file not opened");
     }
     while (ch= fgetc(ptr1)!=EOF){
 
