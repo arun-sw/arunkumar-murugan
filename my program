@@ -6,7 +6,7 @@ int main()
 {
     int *ptr1;
     int *ptr2;
-    int num,num2;
+    int num1,num2;
     int addtition, subtraction,multipliction  ;
     float division;
 
