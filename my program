@@ -2,7 +2,7 @@
 
 
 
-void main()
+int main()
 {
     int *ptr1;
     int *ptr2;
