@@ -6,7 +6,7 @@ struct student
     int rollno;
     char name[25];
     char grate;
-int subject,subject2,subjest3,subject4,sub5;
+int subject,subject2,subjest3,subject4,subject5;
 float avg;
 }s;
 
