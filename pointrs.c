@@ -1,4 +1,4 @@
-#include <stdio.h>
+t#include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
 struct student
@@ -6,7 +6,7 @@ struct student
     int rollno;
     char name[25];
     char grate;
-int sub1,sub2,sub3,sub4,sub5;
+int subjuct,subjuct2,sub3,sub4,sub5;
 float avg;
 }s;
 
