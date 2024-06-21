@@ -9,11 +9,11 @@ public class dummy {
         float l=(float) a/(float) b;
         int h= a%b;
 
-        System.out.println(c);
-        System.out.println(d);
         System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
+        System.out.println(r);
+        System.out.println(k);
+        System.out.println(l);
+        System.out.println(h);
 
         
     }
