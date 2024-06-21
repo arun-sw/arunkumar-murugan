@@ -1,8 +1,8 @@
 import java. util.Date;
 public class dummy {
     public static <date> void main(String[] args) {
-        int a=5;
-        int b=10;
+        int a=60;
+        int b=7;
          int e=a+b;
         int r=a-b;
         int k=a*b;
