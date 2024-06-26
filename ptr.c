@@ -3,7 +3,7 @@
 
 int main(char argv[],char argc[])
 {
-   FILE *ptr1,*ptr2;
+   FILE *ptr,*ptr2;
    char ch;
    int letter=0,words=0,line=0;
 
