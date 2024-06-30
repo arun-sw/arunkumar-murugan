@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
 int n,rev=0,copy;
@@ -7,8 +8,8 @@ int n,rev=0,copy;
     copy =n;
 while(copy>0)
       {  
-       rev=rev*10;
-       rev=rev +(copy%10);
+       rev= rev * 10;
+       rev=rev + (copy%10);
        copy=copy/10;
        }
 if(n==rev)
