@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,rev=0;
-int copy;
+int n,rev=0,copy;
     printf ("enter the n:");
     scanf("%d",&n);
     copy =n;
