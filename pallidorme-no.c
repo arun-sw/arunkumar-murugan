@@ -15,11 +15,11 @@ while(copy>0)
 if(n==rev)
 
       {
-       printf("ama");
+       printf("it's palindrome");
        }
 else  
       {
-       printf("illa");
+       printf("it's not palindrome");
       }
 return 0;
 }
