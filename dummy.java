@@ -1,5 +1,5 @@
 
-public class dummy {
+public class simple {
     public static  void main(String[] args) {
         int a=60;
         int b=40;
