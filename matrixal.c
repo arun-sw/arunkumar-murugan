@@ -2,8 +2,6 @@
 #include<stdlib.h>
 #include<conio.h>
 
-
-
 int add(int a[3][3], int b[3][3], int c[3][3])
 {
     int i,j;
