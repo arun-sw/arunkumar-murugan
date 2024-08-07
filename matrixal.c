@@ -86,7 +86,7 @@ int main() {
                 display(n);
                 break;
             case 4:
-                printf("exit..........");
+                printf("exit.........");
                 exit(0);
             default:
                 printf("invalid oppretion");
