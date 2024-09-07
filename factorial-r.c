@@ -3,7 +3,6 @@
 int fact(int b)
 {
     if(n==1)
-        
         return 1;
     return b*fact(b-1);
 }
