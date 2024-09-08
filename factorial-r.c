@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+#include<cinio.h>
 int fact(int b)
 {
     if(n==1)
