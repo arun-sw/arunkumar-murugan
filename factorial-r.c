@@ -11,7 +11,7 @@ int main()
     int n,sum;
     printf("enter the num:");
     scanf("%d",&n);
-
+     printf("%d",n);
     sum=fact(n);
         printf(" fact is %d=%d",n,sum);
         return 0;
