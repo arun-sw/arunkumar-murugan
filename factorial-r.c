@@ -6,7 +6,6 @@ int fact(int b)
         return 1;
     
     return b*fact(b-1);
-    
 }
 int main()
     {
