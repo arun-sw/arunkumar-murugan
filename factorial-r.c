@@ -7,6 +7,7 @@ int fact(int b)
     return b*fact(b-1);
 }
 int main()
+
     {
     int n,sum;
     printf("enter the num:");
