@@ -5,9 +5,7 @@ int main()
     int *ptr2;
     int num1,num2;
     int addtition, subtraction,multipliction  ;
-    float divi;
-
-    printf("enter the number:");
+    float divi;  printf("enter the number:");
     scanf("%d",&num1);
     printf("enter the number");
     scanf("%d",&num2);
