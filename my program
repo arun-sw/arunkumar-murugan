@@ -12,6 +12,7 @@ int main()
     scanf("%d",&num2);
 
         ptr1=&num1;
+
         ptr2=&num2;
 
         add = *ptr1 + *ptr2;
