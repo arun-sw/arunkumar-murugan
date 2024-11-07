@@ -2,7 +2,6 @@
 int main()
 {
     int *ptr;
-
     int *ptr2;
     int num1,num2;
     int addtition, subtraction,multipliction  ;
