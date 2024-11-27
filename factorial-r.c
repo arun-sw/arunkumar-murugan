@@ -8,6 +8,7 @@ int fact(int b)
 }
 int main()
 
+
     {
     int n,sum;
     printf("enter the num:");
