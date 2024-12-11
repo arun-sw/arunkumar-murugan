@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<cinio.h>
-int fact(int b)
+int fact(int a)
 {
     
     if(n==1)
