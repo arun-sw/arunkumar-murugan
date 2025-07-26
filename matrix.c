@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
     int a, n;
-    printf("enter the number");
-    
+    printf("enter the number");    
     scanf("%d %d", &a, &n);
     int i, j;
     int matrix1[m][n], matrix[m][n], matrix3[m][n];
