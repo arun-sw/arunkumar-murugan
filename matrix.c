@@ -13,18 +13,15 @@ int main() {
         for (j = 0; j < n; j++)
             scanf("%d", &matrix2[i][j]);
     }
-
     for (i = 0; i < a; i++) {
         for (j = 0; j < n; j++) {
             matrix3[i][j] = matrix1[i][j] + matrix2[i][j];
         }
     }
-
     for (i = 0; i < a; i++) {
         for (j = 0; j < n; j++)
             printf("%d", matrix3[i][j]);
         printf("\n");
     }
-
     return 0;
 }
