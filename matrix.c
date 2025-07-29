@@ -5,6 +5,7 @@ int main() {
     scanf("%d %d", &a, &n);
     int i, j;
     int matrix1[m][n], matrix[m][n], matrix3[m][n];
+    
     for (i = 0; i < a; i++) {
         
         for (j = 0; j < n; j++)
