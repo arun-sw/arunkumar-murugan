@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<cinio.h>
 int fact(int a)
+
 {
     if(n==1)
         return 1;
