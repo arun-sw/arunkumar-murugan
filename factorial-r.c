@@ -5,6 +5,7 @@ int fact(int a)
     if(n==1)
         return 1;
     return b*fact(b-1);
+    
 }
 int main()
     {
