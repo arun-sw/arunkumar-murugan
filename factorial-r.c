@@ -10,6 +10,7 @@ int fact(int a)
     
 }
 int main()
+
     {
     int n,sum;
         
