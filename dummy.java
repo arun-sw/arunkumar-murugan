@@ -7,6 +7,7 @@ public class simple {
         int  k= a*b;
         float  l=(float) a/(float) b;
         int h= a%b;
+        
 
         System.out.println(e);
         System.out.println(r);
@@ -17,4 +18,5 @@ public class simple {
         
     }
     }
+
 
