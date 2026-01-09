@@ -4,6 +4,7 @@ public class simple {
         int a=60;
         int b=40;
          int e=a+b;
+        sc
         int r=a-b;
         int  k= a*b;      
         float  l=(float) a/(float) b;
@@ -17,6 +18,7 @@ public class simple {
         
     }
     }
+
 
 
 
